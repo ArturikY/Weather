@@ -1,0 +1,56 @@
+.container {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+form * {
+	outline: none;
+}
+
+.location_logo {
+	display: inline-block;
+	font-size: 30px;
+	color: #000;
+	margin-top: 3px;
+}
+
+.form {
+	width: 100%;
+	margin-left: 10px;
+	margin-top: 3px;
+}
+
+.input {
+	width: 100%;
+	outline: none;
+	border: none;
+	font-size: 24px;
+
+	&::placeholder {
+		font-size: 18px;
+	}
+}
+
+.search_logo {
+	display: inline-block;
+	font-size: 22px;
+	color: #000;
+	background: #bfe4ed;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50px;
+	height: 40px;
+	cursor: pointer;
+	transition: background 0.3s linear;
+
+	&:hover {
+		background: #8ab5ec;
+	}
+
+	&:active {
+		background: #27446c;
+	}
+}

@@ -1,0 +1,44 @@
+@import './nullstyles.scss';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+body {
+	background: #012b42;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Roboto', sans-serif;
+}
+
+.main {
+	width: 350px;
+	margin: 0 auto;
+	padding: 20px;
+	background: #fff;
+	border-radius: 15px;
+}
+
+.info {
+	scale: 0;
+	opacity: 0;
+	height: 0;
+	transition: 0.6s ease-out;
+}
+
+.info.active {
+	animation: 0.7s fadeIn forwards;
+	transition: all 0.7s linear;
+}
+
+@keyframes fadeIn {
+	0% {
+		scale: 0;
+		opacity: 0;
+		height: 0;
+	}
+
+	100% {
+		scale: 1;
+		opacity: 1;
+		height: 100%;
+	}
+}

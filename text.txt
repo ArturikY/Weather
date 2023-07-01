@@ -1,0 +1,3 @@
+[x] - Structure code
+[x] - Animated by CSS
+[x] - Errors

@@ -1,0 +1,92 @@
+.image {
+	width: 200px;
+	margin: 0 auto;
+}
+
+.data {
+	margin: 40px auto;
+	width: 200px;
+
+	.temperature {
+		display: flex;
+		justify-content: center;
+
+		h2 {
+			font-size: 44px;
+			font-weight: 600;
+		}
+
+		div {
+			font-size: 18px;
+			font-weight: 600;
+		}
+	}
+
+	.description {
+		text-align: center;
+		font-size: 24px;
+	}
+}
+
+.parameters {
+	margin-top: 50px;
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: space-between;
+
+	.humidity,
+	.wind {
+		width: 120px;
+		display: flex;
+	}
+}
+
+.humidity {
+	display: flex;
+	align-items: center;
+
+	.logo {
+		height: 40px;
+		font-size: 40px;
+		display: flex;
+		align-items: center;
+	}
+
+	.value {
+		span {
+			font-size: 18px;
+			font-weight: 500;
+		}
+
+		p {
+			font-size: 14px;
+			font-weight: 500;
+		}
+	}
+}
+
+.wind {
+	display: flex;
+	align-items: center;
+
+	.logo {
+		height: 30px;
+		font-size: 30px;
+		display: flex;
+		align-items: center;
+	}
+
+	.value {
+		padding-left: 10px;
+
+		span {
+			font-size: 18px;
+			font-weight: 500;
+		}
+
+		p {
+			font-size: 14px;
+			font-weight: 500;
+		}
+	}
+}
